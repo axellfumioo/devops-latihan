@@ -10,7 +10,7 @@ app.get('/axelganteng', (req, res) => {
   res.send('Axel adalah orang terganteng, iya ganteng banget');
 });
 app.get('/hello', (req, res) => {
-  res.send('hello');
+  res.send('hello, my name is axel');
 });
 
 app.listen(PORT, () => {
